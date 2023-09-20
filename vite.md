@@ -1,4 +1,4 @@
-# Asset Bundling (Vite)
+f!! Vite::content('resources/css/app.css') !!}"# Asset Bundling (Vite)
 
 - [Introduction](#introduction)
 - [Installation & Setup](#installation)
@@ -246,7 +246,7 @@ use Illuminate\Support\Facades\Vite;
     {{-- ... --}}
 
     <style>
-        {!! Vite::content('resources/css/app.css') !!}"
+        {!! Vite::content('resources/css/app.css') !!}
     </style>
     <script>
         {!! Vite::content('resources/js/app.js') !!}
